@@ -9,3 +9,8 @@ function nowServing(katzDeliLine) {
    else
       return (`Currently serving ${katzDeliLine.shift()}.`)
 }
+
+function cuurentLine(line) {
+  if (line.length === 0)
+    return ('')
+}
