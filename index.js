@@ -4,7 +4,7 @@ function takeANumber(current_line, name) {
 }
 
 function nowServing(katzDeliLine) {
-   var current_customer = katzDeliLine.shift
-  return (`Now serving ${current_customer}`)
+   
+  return (`Now serving ${katzDeliLine.shift}`)
  
 }
