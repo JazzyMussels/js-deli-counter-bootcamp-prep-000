@@ -4,7 +4,8 @@ function takeANumber(current_line, name) {
 }
 
 function nowServing(katzDeliLine) {
-   
+   if (katzDeliLine.length === 0)
+   return 
   return (`Now serving ${katzDeliLine.shift}`)
  
 }
